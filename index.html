@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/f0167dc07b.js" crossorigin="anonymous"></script>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<!--
+    HEADER
+-->
+    <header class="header">
+        <a href="#" class="logo">Rodrigo Eirís</a>
+
+        <nav class="navbar">
+            <a href="#inicio" class="active">Inicio</a>
+            <a href="#acerca-de">Acerca de</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+<!--
+    INICIO
+-->
+    <section class="inicio" id="inicio">
+        <div class="inicio-content">
+            <h3>Hola, mi nombre es</h3>
+            <h1>Rodrigo Eirís,</h1>
+            <p>
+                Un joven programador en busca de nuevos proyectos en el campo del desarrollo web 💻.
+            </p>
+
+            <div class="social-media">
+                <a href="https://www.instagram.com/rodrieiris" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/rodrigoeirispadin" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/rodrieiris" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <a href="/CV/CV_RodrigoEirisPadin.pdf" class="btn" download="CV_RodrigoEirisPadin">Descargar CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <!--<i class='bx bx-code-alt'></i>-->
+                    <h3>Desarrollador<br>
+                        Web
+                    </h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <!--<i class='bx bx-code-alt'></i>-->
+                    <h3>Desarrollador<br>
+                        Multiplataforma
+                    </h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <!--<i class='bx bx-code-alt'></i>-->
+                    <h3>Desarrollador<br>
+                        Web
+                    </h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <!--<i class='bx bx-code-alt'></i>-->
+                    <h3>Desarrollador<br>
+                        Multiplataforma
+                    </h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="inicio-img">
+            <img src="" alt="">
+        </div>
+    </section>
+
+<!--
+    ACERCA-DE
+-->
+    <section class="acerca-de" id="acerca-de">
+        <div class="acerca-de-img">
+            <img src="" alt="">
+        </div>
+
+        <div class="acerca-de-content">
+            <h2 class="heading">Acerca <span>de</span></h2>
+            <p>
+                Soy un programador cuyos estudios se centraron en el Desarrollo Web y en el Desarrollo de Aplicaciones Multiplataforma.
+                La informática, gracias a su versatilidad, me permite aprovechar las que considero que son mis habilidades: búsqueda de nuevos
+                desafíos, la capacidad de organización y la motivación del trabajo en equipo.
+            </p> 
+            <p>
+                Actualmente, poseo conocimientos en diferentes lenguajes de programación como: JavaScript, Python, PHP, entre otros; aunque
+                con entusiasmo de seguir adquiriendo nuevos conocimientos y crecer profesionalmente. 
+            </p>
+            <p> 
+                El avance de las nuevas tecnologías supone un aprendizaje constante, por lo que, a corto plazo, estoy interesado en formarme 
+                sobre la Inteligencia Artificial y Ciberseguridad. 
+            </p>
+        </div>
+    </section>
+    
+<!--
+    PROYECTOS
+-->
+    <section class="proyectos" id="proyectos">
+        <h2 class="heading">Mis <span>Proyectos</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>JumperChinchilla</h3>
+                <p>Juego para Android que consiste en una chinchilla, que tiene que ir pasando entre tubos verticales.
+                </p>
+                <a href="https://github.com/rodrieiris/JumperChinchilla" class="btn">Ver Código</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>ApiPokeReact</h3>
+                <p>Es una aplicación web, que a través de la api de pokemon mostramos en pantalla: imagen, url, stats...</p>
+                <a href="https://github.com/rodrieiris/ApiPokeReact" class="btn">Ver Código</a>
+            </div>
+        </div>
+    </section>
+
+<!--
+    FRASES
+-->
+    <div class="phrases-container">
+        <h2 class="heading">Frases<span> Inspiradoras</span></h2>
+
+        <div class="phrases-wrapper">
+            <div class="phrases-box mySwiper">
+                <div class="phrases-content swiper-wrapper">
+                    <div class="phrases-slide swiper-slide">
+                        <img src="" alt="">
+                        <h3>Rodrigo Eirís</h3>
+                        <p>“Si al principio no tienes éxito llamalo Version 1.0”</p>
+                    </div>
+                    <div class="phrases-slide swiper-slide">
+                        <img src="" alt="">
+                        <h3>Rodrigo Eirís</h3>
+                        <p>“Hay un cierto placer en la programación que solo un programador conoce.”</p>
+                    </div>
+                    <div class="phrases-slide swiper-slide">
+                        <img src="" alt="">
+                        <h3>Rodrigo Eirís</h3>
+                        <p>“Un punto  y coma (;) perdido puede ser un verdadero quebradero de cabeza”.</p>
+                    </div>
+                    <div class="phrases-slide swiper-slide">
+                        <img src="" alt="">
+                        <h3>Rodrigo Eirís</h3>
+                        <p>“Detrás de cada error de código, hay una oportunidad de aprender algo nuevo.”</p>
+                    </div>
+                    <div class="phrases-slide swiper-slide">
+                        <img src="" alt="">
+                        <h3>Rodrigo Eirís</h3>
+                        <p>“La programación es como un arte, solo que en lugar de pintar o esculpir, creamos con código.”</p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+<!--
+    CONTACTO
+-->
+    <section class="contacto" id="contacto">
+        <h2 class="heading">Contacta <span>Me!</span></h2>
+    
+        <form name="contactForm" method="POST" data-netlify="true">
+            <div class="input-box">
+                <input type="text" name="nombre" placeholder="Nombre completo" required>
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="input-box">
+                <input type="number" name="telefono" placeholder="Número de teléfono">
+                <input type="text" name="asunto" placeholder="Asunto Email">
+            </div>
+            <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Escribe tu mensaje" required></textarea>
+            <input type="submit" value="Enviar" class="btn">
+        </form>
+    </section>    
+
+<!--
+    FOOTER
+-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 | Rodrigo Eirís.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#inicio"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
